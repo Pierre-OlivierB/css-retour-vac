@@ -53,6 +53,7 @@
 }
 .yellow {
   background-color: hsl(var(--yellow));
-  color: hsl();
   width: 80%;
 }
+
+/* -----------------test home------------------------ */
