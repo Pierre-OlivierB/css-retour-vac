@@ -1,0 +1,12 @@
+:root {
+  --black: 0;
+  --black-perc: 0%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  border: 1px solid hsl(var(--black), var(--black-perc), var(--black-perc));
+}
