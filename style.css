@@ -1,12 +1,58 @@
 :root {
   --black: 0;
   --black-perc: 0%;
+  --red: 0, 93%, 32%;
+  --squarre-h: 50px;
+  --purple: 275, 99%, 58%;
+  --blue: 202, 74%, 49%;
+  --yellow: 46, 99%, 50%;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-p {
+/*------------------ Test : css ------------------------ */
+/* p {
   border: 1px solid hsl(var(--black), var(--black-perc), var(--black-perc));
+} */
+/*--------------------- test : flex---------------------- */
+
+.container {
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+}
+.box-h {
+  height: var(--squarre-h);
+}
+.red {
+  background-color: hsl(var(--red));
+}
+.content-purple {
+  display: flex;
+  justify-content: space-between;
+}
+.purple {
+  background-color: hsl(var(--purple));
+  width: 10%;
+}
+.content-blue {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.blue {
+  background-color: hsl(var(--blue));
+  width: 10%;
+}
+.content-yellow {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.yellow {
+  background-color: hsl(var(--yellow));
+  color: hsl();
+  width: 80%;
 }
